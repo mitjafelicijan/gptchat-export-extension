@@ -44,7 +44,6 @@ function downloadPage() {
 
     let filename = 'gpt-export.html';
     let text = document.querySelector('main').innerHTML;
-    let styleLink = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mitjafelicijan/gptchat-export-extension/style.css">';
 
     let element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(`<style>${styles}</style> ${text}`));
