@@ -4,7 +4,6 @@ Works for GPTChat - https://chat.openai.com.
 
 # Installation and usage
 
-
 1. Download the [extension from GitHub](https://github.com/mitjafelicijan/gptchat-export-extension/archive/refs/heads/master.zip).
 2. Unzip the file.
 3. In you chromuim browser, go to `chrome://extensions/`.
