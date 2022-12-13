@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.25em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Question */
+body>div [class*='react-scroll-to-bottom']>.flex>div:nth-child(odd) {
+    font-size: 200%;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Hide the button */
+body button {
+    display: none;
+}
+
+/* Hide the button */
+body svg {
+    display: none;
+}
+
+
+body pre {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+body code {
+    background-color: #eee;
+}
+
+body pre code {
+    border: 0;
+    background-color: transparent;
+}
