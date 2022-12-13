@@ -8,8 +8,7 @@ body {
     margin: 0 auto;
 }
 
-/* Question */
-body>div [class*='react-scroll-to-bottom']>.flex>div:nth-child(odd) {
+body>div [class*="react-scroll-to-bottom"]>.flex>div:nth-child(odd) {
     font-size: 200%;
     margin-bottom: 30px;
     font-weight: 600;
