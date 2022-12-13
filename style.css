@@ -15,16 +15,17 @@ body>div [class*='react-scroll-to-bottom']>.flex>div:nth-child(odd) {
     font-weight: 600;
 }
 
-/* Hide the button */
 body button {
     display: none;
 }
 
-/* Hide the button */
 body svg {
     display: none;
 }
 
+body textarea {
+    display: none;
+}
 
 body pre {
     border: 1px solid #ccc;
